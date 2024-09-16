@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: amanudeen/jenkins-cicd::2
+        image: amanudeen/jenkins-cicd:2
         ports:
         - containerPort: 8080
